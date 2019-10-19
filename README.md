@@ -109,3 +109,21 @@ The data may now be in several disparate datasets. We’ll need to merge some or
 ### Formatting data
 
 The may need to be formatted. Example, the date might be in int or float, we need to convert it into date format.
+
+## Modeling
+
+The modeling phase includes four tasks. These are
+
+* Selecting modeling techniques
+
+* Designing tests
+
+* Building models
+
+* Assessing models
+
+### Selecting modeling techniques
+
+Classification: logistic regression, decision tree, random forest, gradient-boosted tree
+
+
