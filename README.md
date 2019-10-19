@@ -23,12 +23,12 @@ Cross-industry standard process for data mining, known as CRISP-DM, is an open s
 This model is an idealised sequence of events. In practice many of the tasks can be performed in a different order and it will often be necessary to backtrack to previous tasks and repeat certain actions. The model does not try to capture all possible routes through the data mining process.
 CRISP-DM breaks the process of data mining into six major phases:
 
-Business Understanding
-Data Understanding
-Data Preparation
-Modeling
-Evaluation
-Deployment
+* Business Understanding
+* Data Understanding
+* Data Preparation
+* Modeling
+* Evaluation
+* Deployment
 
 
 
