@@ -11,7 +11,7 @@
 ## Project Description:
 
 ## Data:
-We still didn't get our dataset, so we will update it in a few days.
+We are still looking for our dataset, so we will update it in a few days.
 
 # CRISP-DM Process:
 Cross-industry standard process for data mining, known as CRISP-DM, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model.
