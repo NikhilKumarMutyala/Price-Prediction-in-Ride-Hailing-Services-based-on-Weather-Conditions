@@ -56,7 +56,7 @@ We look at the range of values and their distributions. We’ll use simple data 
 * Set the stage for data preparation steps
 
 ### Verifying Data  Quality
-now we have to determine whether it’s good enough to support our goals. We will often have some quality problem to address yet still be able to move forward, but at times the data quality is so poor that it cannot support our plan and we’ll have to look for alternatives. 
+Now we have to determine whether it’s good enough to support our goals. We will often have some quality problem to address yet still be able to move forward, but at times the data quality is so poor that it cannot support our plan and we’ll have to look for alternatives. 
 
 ## Data Preperation
 The data preparation phase includes five tasks. These are
@@ -104,3 +104,6 @@ Deliverables for this task include two reports, Model assessment, Revised parame
 
 ## Evaluation
 We evaluate not just the models you create but also the process that we used to create them, and their potential for practical use. The general evaluation metrics we use are Accuracy, Precision, and Recall, F1 Score, Log Loss/Binary Crossentropy, AUC-ROC Curve.
+
+## Conclusion
+Finally from the dataset we acheive useful insights based on pre-defined objectives.
