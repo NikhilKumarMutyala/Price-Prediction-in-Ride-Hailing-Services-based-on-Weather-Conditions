@@ -15,8 +15,7 @@ We still didn't get our dataset, so we will update it in a few days.
 
 # CRISP-DM Process:
 
-
-
+![alt text](https://github.com/NikhilKumarMutyala/KDD-Project/blob/master/crisp%20dm.PNG)
 
 
 
