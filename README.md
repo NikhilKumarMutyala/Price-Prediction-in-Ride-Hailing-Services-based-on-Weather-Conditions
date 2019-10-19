@@ -75,3 +75,37 @@ We look at the range of values and their distributions. We’ll use simple data 
 ### Verifying Data  Quality
 
 now we have to determine whether it’s good enough to support our goals. We will often have some quality problem to address yet still be able to move forward, but at times the data quality is so poor that it cannot support our plan and we’ll have to look for alternatives. 
+
+## Data Preperation
+
+The data preparation phase includes five tasks. These are
+
+* Selecting data
+
+* Cleaning data
+
+* Constructing data
+
+* Integrating data
+
+* Formatting data
+
+### Selecting Data
+
+We will decide which portion of the data that we have is actually going to be used for data mining. The deliverable for this task is the rationale for inclusion and exclusion. In it, we’ll explain what data will, and will not, be used for further data-mining work.
+
+### Cleaning Data
+
+We make changes, perhaps tracking down sources to make specific data corrections, excluding some cases or individual cells (items of data), or replacing some items of data with default values or replacements selected by a more sophisticated modeling technique.
+
+### Constructing Data
+
+We may need to derive some new fields.
+
+### Integrating Data
+
+The data may now be in several disparate datasets. We’ll need to merge some or all of those disparate datasets together to get ready for the modeling phase.
+
+### Formatting data
+
+The may need to be formatted. Example, the date might be in int or float, we need to convert it into date format.
