@@ -78,7 +78,7 @@ We may need to derive some new fields.
 ### Integrating Data
 The data may now be in several disparate datasets. We’ll need to merge some or all of those disparate datasets together to get ready for the modeling phase.
 
-### Formatting data
+### Formatting Data
 The may need to be formatted. Example, the date might be in int or float, we need to convert it into date format.
 
 ## Modeling
@@ -88,7 +88,19 @@ The modeling phase includes four tasks. These are
 * Building models
 * Assessing models
 
-### Selecting modeling techniques
+### Selecting Modeling Techniques
 Classification: logistic regression, decision tree, random forest, gradient-boosted tree
+Clustering: K-Means Clustering, Mean-Shift Clustering, Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+Neural Network: Recurrent Neural Network(RNN), Convolutional Neural Network(CNN)
 
+### Designing Tests
+Training data is used to fit mathematical forms to the data model, and test data is used during the model-training process to avoid overfitting. We should at least take care that our training and test data are similar and that we avoid introducing any bias into the data.
 
+### Building Model
+Deliverables for this task include three items namely, Parameter settings, Model descriptions, Models.
+
+### Assessing Models
+Deliverables for this task include two reports, Model assessment, Revised parameter settings.
+
+## Evaluation
+We evaluate not just the models you create but also the process that we used to create them, and their potential for practical use. The general evaluation metrics we use are Accuracy, Precision, and Recall, F1 Score, Log Loss/Binary Crossentropy, AUC-ROC Curve.
