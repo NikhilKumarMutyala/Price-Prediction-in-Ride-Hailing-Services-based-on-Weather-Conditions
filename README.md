@@ -30,5 +30,18 @@ CRISP-DM breaks the process of data mining into six major phases:
 * Evaluation
 * Deployment
 
+ ## Business Understanding
 
+The first thing we must do in any project is to find out exactly what we are trying to accomplish. We must state objectives and requirements. We must translate these goals and restrictions into the formulation of a data mining problem definition. We must start with a clear understanding of
 
+* A problem that you want to address/ Objectives
+
+* The business goals
+
+* Constraints
+
+ Finally, we prepare a preliminary strategy for achieving these objectives.
+ 
+ ## Data Understanding
+ 
+ 
