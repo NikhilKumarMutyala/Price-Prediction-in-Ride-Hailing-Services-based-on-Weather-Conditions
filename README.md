@@ -16,18 +16,18 @@ Uber and Lyft's ride prices are not constant like public transport. They are gre
 The data is approx. for a week of Nov '18 ( I actually have included data collected while I was testing the 'querying' application so might have data spread out over more than a week. I didn't consider this as a time-series problem so did not worry about regular interval. The chosen interval was to query as much as data possible without unnecessary redundancy. So data can go from end week of Nov to few in Dec)
 The Cab ride data covers various types of cabs for Uber & Lyft and their price for the given location. You can also find if there was any surge in the price during that time. Weather data contains weather attributes like temperature, rain, cloud, etc for all the locations taken into consideration.
 ## Data:
-The dataset contains 10 features along with the price for 693071 observations. Later we add few more derived features to this dataset.
-The description for the 10 features is given below:
-distance            693071 non-null float64
-cab_type            693071 non-null object
-time_stamp          693071 non-null int64
-destination         693071 non-null object
-source              693071 non-null object
-price               637976 non-null float64
-surge_multiplier    693071 non-null float64
-id                  693071 non-null object
-product_id          693071 non-null object
-name                693071 non-null object
+The dataset contains 10 features along with the price for 693071 observations. Later we add few more derived features to this dataset.<br>
+The description for the 10 features is given below:<br>
+distance            693071 non-null float64<br>
+cab_type            693071 non-null object<br>
+time_stamp          693071 non-null int64<br>
+destination         693071 non-null object<br>
+source              693071 non-null object<br>
+price               637976 non-null float64<br>
+surge_multiplier    693071 non-null float64<br>
+id                  693071 non-null object<br>
+product_id          693071 non-null object<br>
+name                693071 non-null object<br>
 
 The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. 
 
