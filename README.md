@@ -1,17 +1,17 @@
 # Team Name: Data Scouts
-## Team Members:
+### Team Members:
  1) Sai Harika Paluri
  2) Nikhil Kumar Mutyala
  3) Sri Divya Keerthi Paravasthu Siddanthi
  4) Ravi Theja Goalla
  
- |Name     | 
+<center> |Name     | 
 |---------|
 |[Sai Harika Paluri](https://github.com/harikapaluri)| 
 |[Nikhil Kumar Mutyala](https://github.com/NikhilKumarMutyala) |    
 |[Sree Divya Keerthi Paravasthu Siddanthi](https://github.com/SreeDivyaKeerthiPS) |    
 |[Ravi Theja Goalla](https://github.com/wgaca007) |    
-
+</center>
  
 #  Project Title: Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions
 
