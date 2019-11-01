@@ -5,7 +5,8 @@
  3) Sri Divya Keerthi Paravasthu Siddanthi
  4) Ravi Theja Goalla
  
-<center> |Name     | 
+<center> 
+|Name     | 
 |---------|
 |[Sai Harika Paluri](https://github.com/harikapaluri)| 
 |[Nikhil Kumar Mutyala](https://github.com/NikhilKumarMutyala) |    
