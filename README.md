@@ -18,7 +18,7 @@ The Cab ride data covers various types of cabs for Uber & Lyft and their price f
 ## Data:
 The dataset contains 10 features along with the price for 693071 observations. Later we add few more derived features to this dataset.<br>
 The description for the 10 features is given below:<br>
-
+![alt text](https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/DATA.PNG)
 
 The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. 
 
@@ -27,7 +27,7 @@ The date is in timestamp format. So we change that timestamp into date format, t
 ## CRISP-DM Process:
 Cross-industry standard process for data mining, known as CRISP-DM, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model.
 
-![alt text](https://github.com/NikhilKumarMutyala/KDD-Project/blob/master/crisp%20dm.PNG)
+![alt text](https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/crisp%20dm.PNG)
 *image credits: [Youtube](https://www.youtube.com/watch?v=CRKn-9gVNBw)*
 
 This model is an idealised sequence of events. In practice many of the tasks can be performed in a different order and it will often be necessary to backtrack to previous tasks and repeat certain actions. The model does not try to capture all possible routes through the data mining process.
