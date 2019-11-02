@@ -18,7 +18,7 @@ The Cab ride data covers various types of cabs for Uber & Lyft and their price f
 ## Data:
 The dataset contains 10 features along with the price for 693071 observations. Later we add few more derived features to this dataset.<br>
 The description for the 10 features is given below:<br>
-distance            693071 non-null float64<br>
+distance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          693071 non-null float64<br>
 cab_type            693071 non-null object<br>
 time_stamp          693071 non-null int64<br>
 destination         693071 non-null object<br>
