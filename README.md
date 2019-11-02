@@ -18,16 +18,16 @@ The Cab ride data covers various types of cabs for Uber & Lyft and their price f
 ## Data:
 The dataset contains 10 features along with the price for 693071 observations. Later we add few more derived features to this dataset.<br>
 The description for the 10 features is given below:<br>
-distance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          693071 non-null float64<br>
-cab_type            693071 non-null object<br>
-time_stamp          693071 non-null int64<br>
-destination         693071 non-null object<br>
-source              693071 non-null object<br>
-price               637976 non-null float64<br>
-surge_multiplier    693071 non-null float64<br>
-id                  693071 non-null object<br>
-product_id          693071 non-null object<br>
-name                693071 non-null object<br>
+distance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          693071 non-null float64<br>
+cab_type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            693071 non-null object<br>
+time_stamp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          693071 non-null int64<br>
+destination &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         693071 non-null object<br>
+source &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              693071 non-null object<br>
+price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              637976 non-null float64<br>
+surge_multiplier &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    693071 non-null float64<br>
+id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                  693071 non-null object<br>
+product_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          693071 non-null object<br>
+name  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              693071 non-null object<br>
 
 The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. 
 
