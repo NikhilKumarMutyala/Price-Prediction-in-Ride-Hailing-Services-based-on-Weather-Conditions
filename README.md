@@ -18,8 +18,9 @@ The Cab ride data covers various types of cabs for Uber & Lyft and their price f
 ## Data:
 The dataset contains 10 features along with the price for 693071 observations. Later we add few more derived features to this dataset.<br>
 The description for the 10 features is given below:<br>
-
+### cab_rides.csv
 <img src="https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/DATA.PNG" width="450">
+### weather.csv
 <img src="https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/data2.PNG" width="450">
 
 The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. 
