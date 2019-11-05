@@ -59,7 +59,8 @@ The first thing we must do in any project is to find out exactly what we are try
  * Does solely depend on weather only?
  * How does time effect the price of cabs?
  * How does price change according to cab type?
- * 
+ * How each weather attribute effets the surge?
+ * How much does it cost per mile depending on route and cab type?
  
  ### Data Understanding
 The second stage of the CRISP-DM process requires us to acquire the data listed in the project resources. This initial collection includes data loading, if this is necessary for data understanding. The data-understanding phase includes four tasks. These are
@@ -85,8 +86,8 @@ Data is described using dataframes, info, shape, head, describe functions.<br>
 We look at the range of values and their distributions using EDA. We’ll use simple data manipulation and basic statistical techniques like count_values, missing values, etc for further checks into the data. Data exploration supports several purposes:
 * Get familiar with the data
 * Spot signs of data quality problems
-* Set the stage for data preparation steps
-All these are done using visualization for easy interpretation of data. SNS countplot, violinplot, barplot, scatterplot, boxplot etc are used. We also use matplotlib plots like lineplot, barcharts,subplots, etc for exploring data. 
+* Set the stage for data preparation steps<br>
+ All these are done using visualization for easy interpretation of data. SNS countplot, violinplot, barplot, scatterplot, boxplot etc are used. We also use matplotlib plots like lineplot, barcharts,subplots, etc for exploring data. 
 
 ### Data Preperation
 The data preparation phase includes five tasks. These are
