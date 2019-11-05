@@ -66,7 +66,6 @@ The second stage of the CRISP-DM process requires us to acquire the data listed 
 * Gathering data
 * Describing data
 * Exploring data
-* Verifying data quality
 
 #### Gathering Data
 We need to verify that we have acquired the data or at least gained access to the data, tested the data access process, and verified that the data exists. First we need to Outline data requirements, Verify data availability, Define selection criteria.<br>
@@ -78,7 +77,7 @@ We describe the source and formats of the data, the number of cases, the number 
 Data is described using dataframes, info, shape, head, describe functions.<br>
 * Dataframes gives data in table format<br>
 * Info gives datatypes, no of columns, memory usage etc.<br>
-* hape determines no of rows and columns.<br>
+* Shape determines no of rows and columns.<br>
 * Head displays first 5 rows of dataframe.<br>
 * Describe shows count, mean, std, min, max, percentiles, etc.
 
@@ -87,9 +86,7 @@ We look at the range of values and their distributions using EDA. We’ll use si
 * Get familiar with the data
 * Spot signs of data quality problems
 * Set the stage for data preparation steps
-All these are done using visualization for easy interpretation of data.
-#### Verifying Data Quality
-Now we have to determine whether it’s good enough to support our goals. We will often have some quality problem to address yet still be able to move forward, but at times the data quality is so poor that it cannot support our plan and we’ll have to look for alternatives. 
+All these are done using visualization for easy interpretation of data. SNS countplot, violinplot, barplot, scatterplot, boxplot etc are used. We also use matplotlib plots like lineplot, barcharts,subplots, etc for exploring data. 
 
 ### Data Preperation
 The data preparation phase includes five tasks. These are
