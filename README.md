@@ -52,10 +52,13 @@ The first thing we must do in any project is to find out exactly what we are try
 * A problem that you want to address/ Objectives
 * The business goals
 * Constraints
- Finally, we prepare a preliminary strategy for achieving these objectives.
+ Finally, we prepare a preliminary strategy for achieving these objectives.<br>
  
- For our project, We are trying to accomplish 
- * How does weather affect the surge?
+ For our project, We are trying to accomplish
+ * How does weather effect the surge?
+ * Does solely depend on weather only?
+ * How does time effect the price of cabs?
+ * How does price change according to cab type?
  * 
  
  ### Data Understanding
@@ -66,20 +69,26 @@ The second stage of the CRISP-DM process requires us to acquire the data listed 
 * Verifying data quality
 
 #### Gathering Data
-We need to verify that we have acquired the data or at least gained access to the data, tested the data access process, and verified that the data exists. First we need to Outline data requirements, Verify data availability, Define selection criteria.
+We need to verify that we have acquired the data or at least gained access to the data, tested the data access process, and verified that the data exists. First we need to Outline data requirements, Verify data availability, Define selection criteria.<br>
 
 We acquired the data from Kaggle Datasets. The dataset is Uber & Lyft Cab prices. You can download the dataset [here](https://www.kaggle.com/ravi72munde/uber-lyft-cab-prices).
 
 #### Describing Data
-We describe the source and formats of the data, the number of cases, the number and descriptions of the fields, and any other general information that may be important.
+We describe the source and formats of the data, the number of cases, the number and descriptions of the fields, and any other general information that may be important.<br>
+Data is discribed using dataframes, info, shape, head, describe functions.<br>
+Dataframes gives data in table format<br>
+info gives datatypes, no of columns, memory usage etc.<br>
+shape determines no of rows and columns.<br>
+head displays first 5 rows of dataframe.<br>
+describe shows count, mean, std, min, max, percentiles, etc.
 
 #### Exploring Data
-We look at the range of values and their distributions. We’ll use simple data manipulation and basic statistical techniques for further checks into the data. Data exploration supports several purposes:
+We look at the range of values and their distributions using EDA. We’ll use simple data manipulation and basic statistical techniques like count_values, missing values, etc for further checks into the data. Data exploration supports several purposes:
 * Get familiar with the data
 * Spot signs of data quality problems
 * Set the stage for data preparation steps
-
-#### Verifying Data  Quality
+All these are done using visualization for easy interpretation of data.
+#### Verifying Data Quality
 Now we have to determine whether it’s good enough to support our goals. We will often have some quality problem to address yet still be able to move forward, but at times the data quality is so poor that it cannot support our plan and we’ll have to look for alternatives. 
 
 ### Data Preperation
@@ -103,7 +112,9 @@ We may need to derive some new fields.
 The data may now be in several disparate datasets. We’ll need to merge some or all of those disparate datasets together to get ready for the modeling phase.
 
 #### Formatting Data
-The may need to be formatted. Example, the date might be in int or float, we need to convert it into date format.
+The may need to be formatted. For example, the date might be in int or float, we need to convert it into date format. <Br>
+ Here the date is in timestamp format. We change that into date format.
+
 
 ### Modeling
 The modeling phase includes four tasks. These are
