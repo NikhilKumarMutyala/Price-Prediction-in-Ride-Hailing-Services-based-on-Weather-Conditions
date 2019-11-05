@@ -26,7 +26,10 @@ The description for the 10 features is given below:<br>
 
 The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. 
 
-
+## Installation:
+* Anaconda 4.5.12 Distribution
+* Python 3.7
+* Jupyter Notebook
 
 ## CRISP-DM Process:
 Cross-industry standard process for data mining, known as CRISP-DM, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model.
