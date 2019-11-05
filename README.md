@@ -105,7 +105,7 @@ The data preparation phase includes three tasks. These are
 
 #### Cleaning Data
 We make changes, perhaps tracking down sources to make specific data corrections, excluding some cases or individual cells (items of data), or replacing some items of data with default values or replacements selected by a more sophisticated modeling technique.<br>
-There are some missing data in the dataset. All the missing values are from prices attribute whose cab_type is taxi. We use a formula to predict prices. Once the data is cleaned, we start modeling.
+There are some missing data in the dataset. All the missing values are from prices attribute whose cab_type is taxi. We use a formula to predict prices. The attribute timestamp is removed as we derive time from it. Once the data is cleaned, we start modeling.
 
 #### Constructing Data
 We may need to derive some new attributes. For this dataset we derived few attributes from existing attributes. The dervied attributes are date, hour and fare_per_mile. The date and hour are derived from timestamp. Where as fare_per_mile is derived from price and distance. 
