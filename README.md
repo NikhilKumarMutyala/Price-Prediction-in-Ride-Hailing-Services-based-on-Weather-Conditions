@@ -75,12 +75,12 @@ We acquired the data from Kaggle Datasets. The dataset is Uber & Lyft Cab prices
 
 #### Describing Data
 We describe the source and formats of the data, the number of cases, the number and descriptions of the fields, and any other general information that may be important.<br>
-Data is discribed using dataframes, info, shape, head, describe functions.<br>
-Dataframes gives data in table format<br>
-info gives datatypes, no of columns, memory usage etc.<br>
-shape determines no of rows and columns.<br>
-head displays first 5 rows of dataframe.<br>
-describe shows count, mean, std, min, max, percentiles, etc.
+Data is described using dataframes, info, shape, head, describe functions.<br>
+* Dataframes gives data in table format<br>
+* Info gives datatypes, no of columns, memory usage etc.<br>
+* hape determines no of rows and columns.<br>
+* Head displays first 5 rows of dataframe.<br>
+* Describe shows count, mean, std, min, max, percentiles, etc.
 
 #### Exploring Data
 We look at the range of values and their distributions using EDA. We’ll use simple data manipulation and basic statistical techniques like count_values, missing values, etc for further checks into the data. Data exploration supports several purposes:
