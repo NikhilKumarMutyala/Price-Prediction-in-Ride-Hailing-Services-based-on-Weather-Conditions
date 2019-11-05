@@ -8,6 +8,7 @@
 |[Sree Divya Keerthi Paravasthu Siddanthi](https://github.com/SreeDivyaKeerthiPS) |    
 |[Ravi Theja Goalla](https://github.com/wgaca007) |    
  
+ 
 #  Project Title: Prediction of Uber Lyft Ride Prices depending on the Weather Conditions
 
 ## Project Description:
@@ -15,9 +16,12 @@ Uber and Lyft's ride prices are not constant like public transport. They are gre
 
 The data is approx. for a week of Nov '18 ( I actually have included data collected while I was testing the 'querying' application so might have data spread out over more than a week. I didn't consider this as a time-series problem so did not worry about regular interval. The chosen interval was to query as much as data possible without unnecessary redundancy. So data can go from end week of Nov to few in Dec)
 The Cab ride data covers various types of cabs for Uber & Lyft and their price for the given location. You can also find if there was any surge in the price during that time. Weather data contains weather attributes like temperature, rain, cloud, etc for all the locations taken into consideration.
+
+
 ## Data:
 The dataset contains 10 features along with the price for 693071 observations. Later we add few more derived features to this dataset.<br>
 The description for the 10 features is given below:<br>
+
 ### cab_rides.csv
 <img src="https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/DATA.PNG" width="450">
 
@@ -26,10 +30,12 @@ The description for the 10 features is given below:<br>
 
 The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. Few attributes are added like hour, fare_per_mile.
 
+
 ## Installation:
 * Anaconda 4.5.12 Distribution
 * Python 3.7
 * Jupyter Notebook
+
 
 ## CRISP-DM Process:
 Cross-industry standard process for data mining, known as CRISP-DM, is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model.
@@ -62,8 +68,9 @@ The first thing we must do in any project is to find out exactly what we are try
  * How each weather attribute effets the surge?
  * How much does it cost per mile depending on route and cab type?
  
+ 
  ### Data Understanding
-The second stage of the CRISP-DM process requires us to acquire the data listed in the project resources. This initial collection includes data loading, if this is necessary for data understanding. The data-understanding phase includes four tasks. These are
+The second stage of the CRISP-DM process requires us to acquire the data listed in the project resources. This initial collection includes data loading, if this is necessary for data understanding. The data-understanding phase includes three tasks. These are
 * Gathering data
 * Describing data
 * Exploring data
@@ -89,25 +96,19 @@ We look at the range of values and their distributions using EDA. We’ll use si
 * Set the stage for data preparation steps<br>
  All these are done using visualization for easy interpretation of data. SNS countplot, violinplot, barplot, scatterplot, boxplot etc are used. We also use matplotlib plots like lineplot, barcharts,subplots, etc for exploring data. 
 
+
 ### Data Preperation
-The data preparation phase includes five tasks. These are
-* Selecting data
+The data preparation phase includes three tasks. These are
 * Cleaning data
 * Constructing data
-* Integrating data
 * Formatting data
 
-#### Selecting Data
-We will decide which portion of the data that we have is actually going to be used for data mining. The deliverable for this task is the rationale for inclusion and exclusion. In it, we’ll explain what data will, and will not, be used for further data-mining work.
-
 #### Cleaning Data
-We make changes, perhaps tracking down sources to make specific data corrections, excluding some cases or individual cells (items of data), or replacing some items of data with default values or replacements selected by a more sophisticated modeling technique.
+We make changes, perhaps tracking down sources to make specific data corrections, excluding some cases or individual cells (items of data), or replacing some items of data with default values or replacements selected by a more sophisticated modeling technique.<br>
+There are some missing data in the dataset. All the missing values are from prices attribute whose cab_type is taxi. We use a formula to predict prices. Once the data is cleaned, we start modeling.
 
 #### Constructing Data
-We may need to derive some new fields.
-
-#### Integrating Data
-The data may now be in several disparate datasets. We’ll need to merge some or all of those disparate datasets together to get ready for the modeling phase.
+We may need to derive some new attributes. For this dataset we derived few attributes from existing attributes. The dervied attributes are date, hour and fare_per_mile. The date and hour are derived from timestamp. Where as fare_per_mile is derived from price and distance. 
 
 #### Formatting Data
 The may need to be formatted. For example, the date might be in int or float, we need to convert it into date format. <Br>
@@ -115,28 +116,15 @@ The may need to be formatted. For example, the date might be in int or float, we
 
 
 ### Modeling
-The modeling phase includes four tasks. These are
-* Selecting modeling techniques
-* Designing tests
-* Building models
-* Assessing models
 
 #### Selecting Modeling Techniques
-Classification: logistic regression, decision tree, random forest, gradient-boosted tree
-Clustering: K-Means Clustering, Mean-Shift Clustering, Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
-Neural Network: Recurrent Neural Network(RNN), Convolutional Neural Network(CNN)
 
-#### Designing Tests
-Training data is used to fit mathematical forms to the data model, and test data is used during the model-training process to avoid overfitting. We should at least take care that our training and test data are similar and that we avoid introducing any bias into the data.
+For this dataset we are using Gradient Boosted Tree, Random Forest and Convolutional Neural Network.
 
-#### Building Model
-Deliverables for this task include three items namely, Parameter settings, Model descriptions, Models.
-
-#### Assessing Models
-Deliverables for this task include two reports, Model assessment, Revised parameter settings.
 
 ### Evaluation
-We evaluate not just the models you create but also the process that we used to create them, and their potential for practical use. The general evaluation metrics we use are Accuracy, Precision, and Recall, F1 Score, Log Loss/Binary Crossentropy, AUC-ROC Curve.
+We evaluate not just the models you create but also the process that we used to create them, and their potential for practical use. The general evaluation metrics we use are Accuracy, Precision, and Recall, F1 Score, AUC-ROC Curve.
+
 
 ## Conclusion
 Finally from the dataset we acheive useful insights based on pre-defined objectives.
