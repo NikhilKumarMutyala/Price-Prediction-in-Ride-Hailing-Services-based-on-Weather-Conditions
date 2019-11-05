@@ -54,6 +54,10 @@ The first thing we must do in any project is to find out exactly what we are try
 * Constraints
  Finally, we prepare a preliminary strategy for achieving these objectives.
  
+ For our project, We are trying to accomplish 
+ * How does weather affect the surge?
+ * 
+ 
  ### Data Understanding
 The second stage of the CRISP-DM process requires us to acquire the data listed in the project resources. This initial collection includes data loading, if this is necessary for data understanding. The data-understanding phase includes four tasks. These are
 * Gathering data
@@ -63,6 +67,8 @@ The second stage of the CRISP-DM process requires us to acquire the data listed 
 
 #### Gathering Data
 We need to verify that we have acquired the data or at least gained access to the data, tested the data access process, and verified that the data exists. First we need to Outline data requirements, Verify data availability, Define selection criteria.
+
+We acquired the data from Kaggle Datasets. The dataset is Uber & Lyft Cab prices. You can download the dataset here(https://www.kaggle.com/ravi72munde/uber-lyft-cab-prices).
 
 #### Describing Data
 We describe the source and formats of the data, the number of cases, the number and descriptions of the fields, and any other general information that may be important.
