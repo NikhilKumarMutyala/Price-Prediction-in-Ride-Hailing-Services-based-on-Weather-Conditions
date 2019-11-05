@@ -24,7 +24,7 @@ The description for the 10 features is given below:<br>
 ### weather.csv
 <img src="https://github.com/NikhilKumarMutyala/Prediction-of-Uber-Lyft-Ride-Prices-depending-on-the-Weather-Conditions/blob/master/data2.PNG" width="450">
 
-The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. 
+The date is in timestamp format. So we change that timestamp into date format, the date attribute is added to the dataset and timestamp attribute is removed. Few attributes are added like hour, fare_per_mile.
 
 ## Installation:
 * Anaconda 4.5.12 Distribution
